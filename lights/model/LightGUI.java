@@ -23,8 +23,6 @@ public class LightGUI extends Application{
     public void start(Stage primaryStage) throws Exception {
         // TODO Auto-generated method stub
         this.lightSwitch = new DimmableLight();
-        Thread thread1 = new LightTimer(lightSwitch);
-        thread1.start();
         VBox box = new VBox();
 
         Label light = new Label("");
